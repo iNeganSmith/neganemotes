@@ -1,19 +1,23 @@
 # NeganEmotes
 
-**NeganEmotes** is an unofficial modified fork of [rpemotes-reborn](https://github.com/alberttheprince/rpemotes-reborn), maintained by **DevNeganSmith**.
+**NeganEmotes** is an unofficial modified fork of [rpemotes-reborn](https://github.com/alberttheprince/rpemotes-reborn), maintained by **DevNeganSmith** for internal use on a private FiveM server.
 
 ## Project attribution
 
 - **Original project:** rpemotes-reborn
 - **Upstream repository:** https://github.com/alberttheprince/rpemotes-reborn
 - **Fork maintainer / modifications:** DevNeganSmith
-- **License:** GNU General Public License v3.0 (GPL-3.0)
+- **Source-code license:** GNU General Public License v3.0 (GPL-3.0)
 
 This repository contains modifications and customizations made on top of rpemotes-reborn. NeganEmotes is **not the official rpemotes-reborn repository** and is not presented as being endorsed by the upstream maintainers.
 
-The original source-code copyright, contributor credits, and license notices remain with their respective authors. Third-party animations, props, models, textures, and other assets may have permissions or restrictions separate from the GPL-3.0 license that applies to the source code. This fork does not claim ownership of third-party assets.
+The source-code portions derived from rpemotes-reborn remain subject to GPL-3.0. Third-party animations, props, models, textures, and other assets may be subject to separate permissions or restrictions and are **not claimed as creations of DevNeganSmith unless explicitly stated**.
 
-> **Important:** The upstream project states that contributed custom animations and props were provided under creator agreements intended to keep that content free. Do not assume that every asset in this repository is licensed for commercial resale; verify the rights for each third-party asset before commercial distribution.
+## Intended use
+
+This fork is maintained for **internal server use only**. It is not intended to be sold, commercially redistributed, or presented as an original asset pack. Folder names used for organization do not indicate authorship or ownership of the assets inside them.
+
+See [ASSET_NOTICE.md](ASSET_NOTICE.md) for the asset-use notice.
 
 ---
 
