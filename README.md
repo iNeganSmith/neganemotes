@@ -530,6 +530,8 @@ All animation creators have **_specifically_** asked that their content remain f
 - [EP](https://github.com/EpKouhia)
 - [TayMcKenzieNZ](https://github.com/TayMcKenzieNZ)
 - [41anims](https://www.gta5-mods.com/users/41anims)
+- [DevNeganSmithStore](https://dev-negan-smith-store.tebex.store).
 - [corbs](https://www.gta5-mods.com/users/corbs)
 - [jaysigx](https://www.gta5-mods.com/misc/improved-umbrella)
 - [Payzee](https://pazeee.tebex.io/)
+  
