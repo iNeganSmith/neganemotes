@@ -1,12 +1,21 @@
-<img width="1920" height="1080" alt="rpemotesrebornbanner" src="https://github.com/user-attachments/assets/a515b5ed-da1b-45d4-9a1d-b83399ba9d17" />
+# NeganEmotes
 
-Rpemotes-reborn is a community-driven FiveM emote menu allowing players to express themselves in roleplay with custom animations, countless facial expressions, walk styles, and props.
+**NeganEmotes** is an unofficial modified fork of [rpemotes-reborn](https://github.com/alberttheprince/rpemotes-reborn), maintained by **DevNeganSmith**.
 
-Rpemotes-reborn is free, **and will always be free**: accept no substitutes or reproductions from scummy people reselling other's hard work against agreements made with creators. We're committed to the open-source community and the dozens of contributors who put hard work into rpemotes to provide the community with free emotes and props.
+## Project attribution
 
-Want to help support them? Check out our credits section at the bottom of the Readme and support those creators!
+- **Original project:** rpemotes-reborn
+- **Upstream repository:** https://github.com/alberttheprince/rpemotes-reborn
+- **Fork maintainer / modifications:** DevNeganSmith
+- **License:** GNU General Public License v3.0 (GPL-3.0)
 
-Interested in joining our community? You can find our Discord [here](https://discord.gg/UJ72w8rgar).
+This repository contains modifications and customizations made on top of rpemotes-reborn. NeganEmotes is **not the official rpemotes-reborn repository** and is not presented as being endorsed by the upstream maintainers.
+
+The original source-code copyright, contributor credits, and license notices remain with their respective authors. Third-party animations, props, models, textures, and other assets may have permissions or restrictions separate from the GPL-3.0 license that applies to the source code. This fork does not claim ownership of third-party assets.
+
+> **Important:** The upstream project states that contributed custom animations and props were provided under creator agreements intended to keep that content free. Do not assume that every asset in this repository is licensed for commercial resale; verify the rights for each third-party asset before commercial distribution.
+
+---
 
 # Features 🛠️
 
