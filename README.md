@@ -1,6 +1,6 @@
 # NeganEmotes
 
-**NeganEmotes** es un fork modificado no oficial de [rpemotes-reborn](https://github.com/alberttheprince/rpemotes-reborn), mantenido por **DevNeganSmith** para uso interno en un servidor privado de FiveM.
+**NeganEmotes** es un fork modificado no oficial de [rpemotes-reborn](https://github.com/alberttheprince/rpemotes-reborn), mantenido por **DevNeganSmith** para uso interno en un servidor privado de FiveM o para el servidor que este actualmanete laborando.
 
 ## Atribución del proyecto
 
