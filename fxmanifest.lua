@@ -1,6 +1,6 @@
 fx_version 'cerulean'
 game 'gta5'
-description 'rpemotes-reborn'
+description 'NeganEmotes - modified fork of rpemotes-reborn'
 version '2.1.3'
 
 use_experimental_fxv2_oal 'yes'
