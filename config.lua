@@ -60,7 +60,7 @@ Config = {
     WalkingStylesEnabled = true,
     PersistentWalk = true,
     SharedEmotesEnabled = true,
-    AdultEmotesDisabled = false,
+    AdultEmotesDisabled = true,
     AnimalEmotesEnabled = true,
 
     -- Hands Up

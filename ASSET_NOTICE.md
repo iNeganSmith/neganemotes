@@ -1,13 +1,25 @@
-# Asset Notice
+# Asset Notice — Tebex Free Edition
 
-NeganEmotes includes or may reference animations, props, models, textures, and other assets created by third parties.
+La rama `tebex-free` de NeganEmotes **no redistribuye los assets streamed de terceros** presentes en otras versiones del proyecto.
 
-- DevNeganSmith does **not** claim authorship or ownership of third-party assets merely because they are stored, renamed, reorganized, or used by this fork.
-- Folder names such as `DEVNEGANSMITH1` through `DEVNEGANSMITH9` are organizational labels only and do not transfer or imply copyright ownership.
-- The source-code portions derived from rpemotes-reborn remain subject to GPL-3.0.
-- Third-party assets may be governed by separate licenses, permissions, creator terms, or usage restrictions.
-- This fork is maintained for internal use on a private FiveM server and is not intended for commercial resale or public redistribution of third-party assets.
-- If an asset creator requests removal of their content, the asset should be identified and removed from the private server package unless a valid permission or license permits continued use.
+## Exclusiones deliberadas
 
-Original project:
+Se excluyen, entre otros:
+
+- animaciones `.ycd`;
+- modelos/props `.ydr`;
+- texturas `.ytd`;
+- definiciones `.ytyp`;
+- manifests y archivos auxiliares de packs externos;
+- entradas del catálogo que dependían directamente de esos assets.
+
+También se han retirado de esta edición pública entradas de contenido restringido detectadas durante la revisión.
+
+## Propiedad intelectual
+
+DevNeganSmith no reclama autoría sobre material de terceros. El código derivado de rpemotes-reborn permanece bajo GPL-3.0 y mantiene la atribución al proyecto original.
+
+Si en el futuro se añade un asset a esta rama, debe existir permiso o licencia explícita que permita su redistribución pública por el canal utilizado. La gratuidad de un asset por sí sola no equivale a permiso de re-subida.
+
+Proyecto original:
 https://github.com/alberttheprince/rpemotes-reborn

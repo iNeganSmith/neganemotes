@@ -1,7 +1,7 @@
 fx_version 'cerulean'
 game 'gta5'
-description 'NeganEmotes - modified fork of rpemotes-reborn'
-version '2.1.3'
+description 'NeganEmotes - Tebex Free Edition (GPL-3.0 fork of rpemotes-reborn)'
+version '2.1.3-tebex-free'
 
 use_experimental_fxv2_oal 'yes'
 
@@ -68,36 +68,22 @@ client_scripts {
     'client/emojis.lua',
 }
 
-data_file 'DLC_ITYP_REQUEST' 'stream/rpemotesreborn_props.ytyp'
 
-data_file 'DLC_ITYP_REQUEST' 'stream/brummie_props.ytyp'
 
-data_file 'DLC_ITYP_REQUEST' 'stream/bzzz_props.ytyp'
 
-data_file 'DLC_ITYP_REQUEST' 'stream/bzzz_camp_props.ytyp'
 
-data_file 'DLC_ITYP_REQUEST' 'stream/apple_1.ytyp'
 
-data_file 'DLC_ITYP_REQUEST' 'stream/kaykaymods_props.ytyp'
 
-data_file 'DLC_ITYP_REQUEST' 'stream/knjgh_pizzas.ytyp'
 
-data_file 'DLC_ITYP_REQUEST' 'stream/natty_props_lollipops.ytyp'
 
-data_file 'DLC_ITYP_REQUEST' 'stream/ultra_ringcase.ytyp'
 
-data_file 'DLC_ITYP_REQUEST' 'stream/pata_props.ytyp'
 
-data_file 'DLC_ITYP_REQUEST' 'stream/vedere_props.ytyp'
 
-data_file 'DLC_ITYP_REQUEST' 'stream/pnwsigns.ytyp'
 
-data_file 'DLC_ITYP_REQUEST' 'stream/pprp_icefishing.ytyp'
 
-data_file 'DLC_ITYP_REQUEST' 'stream/scully_props.ytyp'
 
-data_file 'DLC_ITYP_REQUEST' 'stream/samnick_prop_lighter01.ytyp'
 
-data_file 'DLC_ITYP_REQUEST' 'stream/bzzz_murderpack.ytyp'
 
-data_file 'DLC_ITYP_REQUEST' 'stream/prop_protestsign_fh.ytyp'
+
+
+-- Third-party streamed assets are intentionally excluded from the tebex-free branch.
