@@ -1,181 +1,158 @@
 # NeganEmotes
 
-**NeganEmotes** is an unofficial modified fork of [rpemotes-reborn](https://github.com/alberttheprince/rpemotes-reborn), maintained by **DevNeganSmith** for internal use on a private FiveM server.
+**NeganEmotes** es un fork modificado no oficial de [rpemotes-reborn](https://github.com/alberttheprince/rpemotes-reborn), mantenido por **DevNeganSmith** para uso interno en un servidor privado de FiveM.
 
-## Project attribution
+## Atribución del proyecto
 
-- **Original project:** rpemotes-reborn
-- **Upstream repository:** https://github.com/alberttheprince/rpemotes-reborn
-- **Fork maintainer / modifications:** DevNeganSmith
-- **Source-code license:** GNU General Public License v3.0 (GPL-3.0)
+- **Proyecto original:** rpemotes-reborn
+- **Repositorio original:** https://github.com/alberttheprince/rpemotes-reborn
+- **Mantenedor del fork / modificaciones:** DevNeganSmith
+- **Licencia del código fuente:** GNU General Public License v3.0 (GPL-3.0)
 
-This repository contains modifications and customizations made on top of rpemotes-reborn. NeganEmotes is **not the official rpemotes-reborn repository** and is not presented as being endorsed by the upstream maintainers.
+Este repositorio contiene modificaciones y personalizaciones realizadas sobre rpemotes-reborn. NeganEmotes **no es el repositorio oficial de rpemotes-reborn** y no se presenta como un proyecto respaldado o avalado por los mantenedores originales.
 
-The source-code portions derived from rpemotes-reborn remain subject to GPL-3.0. Third-party animations, props, models, textures, and other assets may be subject to separate permissions or restrictions and are **not claimed as creations of DevNeganSmith unless explicitly stated**.
+Las partes del código fuente derivadas de rpemotes-reborn continúan sujetas a GPL-3.0. Las animaciones, props, modelos, texturas y otros recursos de terceros pueden estar sujetos a permisos o restricciones independientes y **no se presentan como creaciones de DevNeganSmith salvo que se indique expresamente**.
 
-## Intended use
+## Uso previsto
 
-This fork is maintained for **internal server use only**. It is not intended to be sold, commercially redistributed, or presented as an original asset pack. Folder names used for organization do not indicate authorship or ownership of the assets inside them.
+Este fork se mantiene **únicamente para uso interno del servidor**. No está pensado para ser vendido, redistribuido comercialmente ni presentado como un paquete original de recursos. Los nombres de las carpetas utilizados para organizar archivos no indican autoría ni propiedad sobre los recursos contenidos en ellas.
 
-See [ASSET_NOTICE.md](ASSET_NOTICE.md) for the asset-use notice.
+Consulta [ASSET_NOTICE.md](ASSET_NOTICE.md) para ver el aviso relacionado con los recursos de terceros.
 
 ---
 
-# Features 🛠️
+# Características 🛠️
 
-- Emote Preview & Placement - View and place emotes before using them!
-
-- Customizable Banner (Change the image, text, and text color)
-
-- Emote Search Function 🔎
-
-- Community contributed custom animations 🕺
-
-- Group emotes: Dance, salute, and more with 2 or more people
-
-- Exit Emotes: Exit out of emotes with smooth transitions
-
-- Persistent Facial Expressions and Walkstyles via client KVP 
-
-- Easily convert Menyoo to RPEmotes 🔄
-
-- Hide Adult Emotes 🔞
-
-- Hide Animal Emotes ⛔
-
-- Animal Emotes 🐩
-
-- Shared Particle Effects: emotes with smoke effects, fire, and more 💨
-
-- QB-Core + ESX Framework & KVP Keybinding Support ⚙️
-
-- Support for shared and couple poses/animations 👫
-
-- Persistent Disabling Of Idle Camera via KVP 🎥
-
-- Easy To Understand Configuration File ⚙️
-
-- Props Extractor for anti-cheat scripts 💾
-
-- Crouching 🐞
-
-- Crawling 🐛
-
-- Finger Pointing 👆
-
+- Vista previa y colocación de emotes: visualiza y coloca los emotes antes de utilizarlos.
+- Banner personalizable: cambia la imagen, el texto y el color del texto.
+- Función de búsqueda de emotes 🔎
+- Animaciones personalizadas aportadas por la comunidad 🕺
+- Emotes grupales: bailes, saludos y más para 2 o más personas.
+- Emotes de salida: finaliza los emotes con transiciones más suaves.
+- Expresiones faciales y estilos de caminar persistentes mediante KVP del cliente.
+- Conversión sencilla de Menyoo a RPEmotes 🔄
+- Posibilidad de ocultar emotes para adultos 🔞
+- Posibilidad de ocultar emotes de animales ⛔
+- Emotes de animales 🐩
+- Efectos de partículas compartidos: humo, fuego y más 💨
+- Compatibilidad con QB-Core + ESX y asignaciones de teclas mediante KVP ⚙️
+- Compatibilidad con poses y animaciones compartidas o de pareja 👫
+- Desactivación persistente de la cámara inactiva mediante KVP 🎥
+- Archivo de configuración fácil de entender ⚙️
+- Extractor de props para scripts anticheat 💾
+- Agacharse 🐞
+- Arrastrarse 🐛
+- Señalar con el dedo 👆
 - Ragdoll 😵
+- Levantar las manos 🙌
+- Binoculares funcionales 👀
+- Cámara de noticias 🎤📹
 
-- Hands up 🙌
+**Idiomas disponibles:**
 
-- Working Binoculars 👀
+Albanés, portugués de Brasil, chino simplificado, chino tradicional, checo, danés, neerlandés, inglés, finés, francés, alemán, griego, húngaro, indonesio, italiano, lituano, noruego, persa, polaco, rumano, ruso, serbio, cingalés, esloveno, español, sueco, turco y vietnamita.
 
-- News Camera 🎤📹
+Los idiomas se pueden seleccionar y/o añadir desde `config.lua`.
 
+Las traducciones han sido realizadas o aportadas por la comunidad de FiveM; algunas pudieron apoyarse en traducción automática.
 
-**Available in the following languages:**
+El inglés es el idioma original y normalmente contiene primero las cadenas más recientes. Algunas traducciones pueden estar incompletas o tener diferencias de calidad. Si falta una cadena, el inglés puede utilizarse como idioma de respaldo. Compara tu archivo de idioma con el archivo en inglés para localizar y añadir traducciones faltantes.
 
-Albanian, Brazilian Portuguese, Chinese (Simplified), Chinese (Traditional), Czech, Danish, Dutch, English, Finnish, French, German, Greek, Hungarian, Indonesian, Italian, Lithuanian, Norwegian, Persian, Polish, Romanian, Russian, Serbian, Sinhala, Slovenian, Spanish, Swedish, Turkish, Vietnamese
+Si encuentras una traducción incorrecta o quieres añadir otro idioma, puedes realizar los cambios correspondientes en tu fork.
 
-Languages can be selected and/or added in the config.lua.
+# Exports y documentación
 
-All languages were translated or contributed by the FiveM community, with the odd exception of using Google Translate.
+Puedes consultar la documentación original [aquí](https://rpemotes-reborn.gitbook.io/guide).
 
-English is the original language and will always be up to date with correct translations. Otherwise, German is currently the only translation which is complete and verified by a native speaker. Other translations might be incomplete or partially lacking in quality. English is used as a fallback for missing translations. Compare your language file to the English one to find and add missing translations.
-
-If you find any incorrect translations or would like to add more languages, please make a pull request with the corrections.
-
-
-# Exports and Documentation
-
-Find our documentation [here](https://rpemotes-reborn.gitbook.io/guide)
-
-The rpemotes-reborn resource has the following exports:
+El recurso rpemotes-reborn dispone de los siguientes exports:
 
 ```lua
-exports["rpemotes-reborn"]:EmoteCommandStart(emoteName, textureVariation) -- deprecated, prefer Execute() below
-exports["rpemotes-reborn"]:Execute(emoteName, emoteType, textureVariation) -- plays any emote type through its native handler
-exports["rpemotes-reborn"]:EmoteCancel(forceCancel) – forceCancel is optional
+exports["rpemotes-reborn"]:EmoteCommandStart(emoteName, textureVariation) -- Obsoleto; se recomienda usar Execute() de abajo
+exports["rpemotes-reborn"]:Execute(emoteName, emoteType, textureVariation) -- Ejecuta cualquier tipo de emote mediante su controlador nativo
+exports["rpemotes-reborn"]:EmoteCancel(forceCancel) -- forceCancel es opcional
 exports["rpemotes-reborn"]:IsPlayerCrouched()
 exports["rpemotes-reborn"]:IsPlayerProne()
-exports["rpemotes-reborn"]:StopPlayerProne(force) -- force is optional
-exports["rpemotes-reborn"]:GetPlayerProneType() -- returns the type of prone the player is in, either "onfront" or "onback"
+exports["rpemotes-reborn"]:StopPlayerProne(force) -- force es opcional
+exports["rpemotes-reborn"]:GetPlayerProneType() -- Devuelve el tipo de posición en el suelo: "onfront" o "onback"
 exports["rpemotes-reborn"]:IsPlayerCrawling()
 exports["rpemotes-reborn"]:IsPlayerPointing()
-exports["rpemotes-reborn"]:IsPlayerInAnim() -- returns current animation name or nil
+exports["rpemotes-reborn"]:IsPlayerInAnim() -- Devuelve el nombre de la animación actual o nil
 exports["rpemotes-reborn"]:IsPlayerInHandsUp()
 exports["rpemotes-reborn"]:toggleBinoculars()
 exports["rpemotes-reborn"]:toggleNewscam()
-exports["rpemotes-reborn"]:getWalkstyle() -- Gets walk style of player, used to detect certain walk. useful for applying effects while doing certain walks like tripping or other "funny" effects.
-exports["rpemotes-reborn"]:setWalkstyle(name, force) -- name = "move_m@alien" or any other, force = optional bool. Lets you set or force a walk style, useful for scripts like retrieving a style before drinking and restoring it after sobering up.
-exports["rpemotes-reborn"]:toggleWalkstyle(bool, message) -- bool to allow the user to change their walkstyle in the menu or not / message to show the user (optional, default is :"You are unable to change your walking style right now.")"
-exports["rpemotes-reborn"]:GetEmoteCatalog() -- Returns the merged emote list (emotes, shared, expressions, walks, emojis)
+exports["rpemotes-reborn"]:getWalkstyle() -- Obtiene el estilo de caminar del jugador
+exports["rpemotes-reborn"]:setWalkstyle(name, force) -- Permite establecer o forzar un estilo de caminar; force es opcional
+exports["rpemotes-reborn"]:toggleWalkstyle(bool, message) -- Permite o impide cambiar el estilo de caminar; message es opcional
+exports["rpemotes-reborn"]:GetEmoteCatalog() -- Devuelve el catálogo combinado de emotes, compartidos, expresiones, estilos y emojis
 ```
 
-`GetEmoteCatalog()` is a client export intended for external menu resources. It
-returns `nil, "catalog_not_ready"` until the animation list has been converted,
-then a cached list (rebuilt only when the list is reconverted), so it is safe to
-call repeatedly. The result is a flat array of every emote, shared emote,
-expression, walk and emoji. Each entry carries `name` and `emoteType` plus the
-internal fields the conversion pass produced (`dict`, `anim`, `label`,
-`scenario`, `AnimationOptions`, ...); emoji entries carry `name`, `emoteType` and
-`emoji` (the glyph). The shape mirrors rpemotes' internal data, so consumers adapt
-it to their own view model.
+`GetEmoteCatalog()` es un export de cliente pensado para recursos de menú externos. Devuelve `nil, "catalog_not_ready"` hasta que se haya convertido la lista de animaciones. Después devuelve una lista almacenada en caché, que solo se reconstruye cuando se vuelve a convertir la lista, por lo que puede llamarse repetidamente de forma segura.
 
-Having issues with players using emotes when/where they're not supposed to? Use the following where needed. This would be somewhere like if you want to disable emotes in jail or when someone is handcuffed/escorted. We've also added one for blocking emote cancels!
+El resultado es un arreglo plano con todos los emotes, emotes compartidos, expresiones, estilos de caminar y emojis. Cada entrada incluye `name` y `emoteType`, además de los campos internos generados durante la conversión, como `dict`, `anim`, `label`, `scenario`, `AnimationOptions`, etc. Las entradas de emoji incluyen `name`, `emoteType` y `emoji`. La estructura sigue los datos internos de RPEmotes para que otros recursos puedan adaptarla a su propio modelo.
+
+Si tienes problemas con jugadores utilizando emotes donde no deberían, puedes controlar su uso mediante estados del jugador. Por ejemplo, puedes impedir emotes cuando un jugador está encarcelado, esposado o siendo escoltado. También puedes impedir que cancele una animación.
 
 ```lua
-LocalPlayer.state:set('canEmote', false, true) -- Blocks players from emoting
-LocalPlayer.state:set('canEmote', true, true) -- Allows players to emote
+LocalPlayer.state:set('canEmote', false, true) -- Impide que el jugador use emotes
+LocalPlayer.state:set('canEmote', true, true) -- Permite que el jugador use emotes
 
-LocalPlayer.state:set('canCancel', false, true) -- Blocks players from using emote cancel
-LocalPlayer.state:set('canCancel', true, true) -- Allows players to use emote cancel
+LocalPlayer.state:set('canCancel', false, true) -- Impide cancelar el emote
+LocalPlayer.state:set('canCancel', true, true) -- Permite cancelar el emote
 ```
 
-# Menu Keybind 🎛️
+# Tecla del menú 🎛️
 
-The keybind uses RegisterKeyMapping. By default the configured keybind in the _initial_ config.lua will be the default key, however once the keybind is set for a user it'll remain and can be changed in the users settings under `Esc > settings > keybinds > fivem`.
+La asignación utiliza `RegisterKeyMapping`. La tecla configurada inicialmente en `config.lua` será la predeterminada. Una vez que un jugador cambie su tecla, FiveM conservará su elección y podrá modificarla desde los ajustes de teclas de FiveM.
 
-**Menu key:**
+**Tecla del menú:**
 
-| COMMAND: | ACTION:                    |
-| -------- | -------------------------- |
-| F4       | Open / Close RPEmotes menu |
+| COMANDO | ACCIÓN |
+| --- | --- |
+| F4 | Abrir / cerrar el menú de RPEmotes |
 
-Server owners can change this in the `config.lua`.
+Los propietarios del servidor pueden modificarla desde `config.lua`.
 
-Alternatively, the player base can set their menu keybind to open rpemotes-reborn
+Los jugadores también pueden cambiar la asignación desde:
 
-`Esc > settings > keybinds > fivem`
+`Esc > Ajustes > Asignación de teclas > FiveM`
 
-- More keybinds are now using key mappings which means that they are now available in your FiveM settings to change (`RagdollKeybind`)
+Más funciones utilizan ahora asignaciones de teclas configurables desde FiveM, como `RagdollKeybind`.
 
-# Keybinds 🎛️
+# Asignaciones de teclas 🎛️
 
-To use the features, enable the setting in `config.lua`
+Para utilizar las funciones de asignación de teclas, activa la opción correspondiente en `config.lua`:
 
 ```lua
 Keybinding = false,
 ```
 
-Alternatively, you can use the keybind command that comes with FiveM without having to use SQL, by entering the following into F8:
+También puedes usar el comando de bind incluido en FiveM sin utilizar SQL. Escribe lo siguiente en F8:
 
-`bind keyboard "Yourbutton" "e youremote"`. To remove the keybind, type `"unbind keyboard "Yourbutton"`.
+`bind keyboard "Yourbutton" "e youremote"`
 
-# Menu Customization: Header
+Para eliminar una asignación:
 
-To edit the header, find the image in the main directory of rpemotes-reborn and edit the image in your program of choice. The image dimensions are 512 x 128.
+`unbind keyboard "Yourbutton"`
 
-Do not change the name of the image file.
+# Personalización del menú: cabecera
 
-Example Banner:
+Para editar la cabecera, busca la imagen correspondiente en el directorio principal del recurso y modifícala con el programa que prefieras. Las dimensiones recomendadas son **512 x 128**.
+
+No cambies el nombre del archivo de imagen si el recurso sigue haciendo referencia a ese nombre.
+
+Ejemplo de banner:
+
 ![image](https://github.com/user-attachments/assets/dac5b7e5-4b63-4d10-8d59-3e8502d9913c)
 
-**Note for users of older versions of rpemotes:** Previously, the banner was hosted through a web link on an image hosting website. Due to various image hosting sites dealing with large amounts of traffic from FiveM, they cut off access to FiveM.
+**Nota para usuarios de versiones antiguas de RPEmotes:** anteriormente el banner podía alojarse mediante un enlace web. Algunos servicios de alojamiento de imágenes han limitado el acceso debido al volumen de tráfico generado por FiveM, por lo que se recomienda utilizar el archivo local.
 
-# Menu Customization: Title
+# Personalización del menú: título
 
-In the`config.lua` file, server owners can set the MenuTitle or simply leave it blank. Ideally, this should be 11 characters or less without any spaces.
-You can also set the font and decide whether or not you want an outline and MenuPosition. The available fonts are as follows:
+En `config.lua`, el propietario del servidor puede configurar `MenuTitle` o dejarlo vacío. Lo recomendable es utilizar 11 caracteres o menos y evitar espacios cuando sea posible.
+
+También puedes configurar la fuente, decidir si quieres contorno y establecer `MenuPosition`.
+
+Fuentes disponibles:
 
 ```lua
     -- 0 : Chalet London
@@ -185,116 +162,113 @@ You can also set the font and decide whether or not you want an outline and Menu
     -- 7 : Pricedown
 ```
 
-Additional customizations can be found in the config. Please note due to limitations by Imgur and Discord; images can not be directly linked from either platform. You may link directly to an image from the forums, or just leave it blank.
+Hay más opciones de personalización en la configuración. Debido a determinadas limitaciones de servicios externos, algunas imágenes no pueden enlazarse directamente desde plataformas como Imgur o Discord. Puedes utilizar una imagen alojada en una fuente compatible o dejar el campo vacío.
 
-# Increments
+# Desplazamiento por incrementos
 
-Pressing 'LEFT ALT' on the keyboard allows players to scroll through the menu one by one, or by 10.
+Al mantener pulsado `LEFT ALT`, los jugadores pueden desplazarse por el menú elemento por elemento o en incrementos mayores.
 
-Alternatively, players can use the `SHARE` button on an Xbox controller or `OPTIONS` button on a Playstation controller.
+También pueden utilizar el botón `SHARE` en un mando de Xbox o `OPTIONS` en un mando de PlayStation.
 
 # Ragdoll 🥴
 
-- To enable ragdoll, change `RagdollEnabled = false,` to true in config.lua.
+- Para activar ragdoll, cambia `RagdollEnabled = false` a `true` en `config.lua`.
+- `RagdollKeybind` utiliza `RegisterKeyMapping`. La tecla predeterminada puede cambiarse desde los ajustes de teclas de FiveM.
+- La opción `RagdollAsToggle` permite elegir entre funcionamiento tipo interruptor o mantener pulsada la tecla.
 
-- Much like the menu key, `RagdollKeybind` is also using RegisterKeyMapping. It is currently set to `U` by default _(server side)_ however can be set to the player's preferred keybind in the FiveM keybinds setting found in the settings menu within the Esc Menu.
+# Señalar y levantar las manos 👆
 
-- New setting: `RagdollAsToggle`, this will make either the ragdoll be a toggle or a hold key
+Una vez activadas estas funciones, los jugadores pueden pulsar `B` para señalar y `Y` para levantar las manos, sin necesidad de instalar recursos adicionales.
 
-# Finger Pointing & Hands Up 👆
+Estas teclas pueden modificarse según las preferencias del servidor.
 
-Once enabled, players can press `B` on the keyboard to enable standalone finger pointing, and `Y` to put their hands up, without the need for unnecessary frameworks or "small resources".
+| COMANDO | ACCIÓN |
+| --- | --- |
+| B | Activar / desactivar señalar |
+| Y | Activar / desactivar levantar las manos |
+| /pointing | Activar / desactivar señalar |
+| /handsup | Activar / desactivar levantar las manos |
 
-Much like everything else in the menu, server owners can change these keybinds to their own preferences.
+# Agacharse y arrastrarse
 
-| COMMAND:  | ACTION:                |
-| --------- | ---------------------- |
-| B         | Toggle Finger Pointing |
-| Y         | Toggle Hands Up        |
-| /pointing | Toggle Finger Pointing |
-| /handsup  | Toggle Hands Up        |
+**Agacharse:**
 
-# Crouching & Crawling
+Con la tecla configurada para agacharse, el jugador puede desplazarse hacia delante, atrás y a los lados, además de girar. Según la configuración de la versión, también puede alternar posiciones al pulsar la barra espaciadora.
 
-**Crouching:**
+**Arrastrarse:**
 
-RIGHT CONTROL. Players can move forward, back, left, and right as well as turn around. Press SPACEBAR to switch from stomach to back. Pressing the RIGHT CONTROL key while running will have the player "dive into" a crouching animation.
+El servidor puede configurar el comportamiento de la tecla correspondiente para alternar entre sigilo, agacharse y arrastrarse, según las opciones de `config.lua`.
 
-**Crawling:**
+# Comandos de chat
 
-Server owners can opt in to either overriding the stealth/action animation when pressing the LEFT CONTROL keybind or have players tap LEFT CONTROL twice to switch from stealth to crouch (when enabled in the config.lua file)
-
-# Chat Commands
-
-| COMMAND:      | ACTION:                   |
-| ------------- | ------------------------- |
-| LEFT CONTROL  | Toggle Crouching On / Off |
-| RIGHT CONTROL | Toggle Crawling On / Off  |
-| /crouch       | Toggle Crouching On / Off |
-| /crawl        | Toggle Crawling On / Off  |
+| COMANDO | ACCIÓN |
+| --- | --- |
+| LEFT CONTROL | Activar / desactivar agacharse |
+| RIGHT CONTROL | Activar / desactivar arrastrarse |
+| /crouch | Activar / desactivar agacharse |
+| /crawl | Activar / desactivar arrastrarse |
 
 ---
 
-# Moods & Walkstyles 😜🚶‍♂️
+# Estados de ánimo y estilos de caminar 😜🚶‍♂️
 
-Moods and walk styles can be set from the menu. These will save to your character and reapply when exiting a vehicle, or loading back into the server as they are saved via client-side KVP.
+Los estados de ánimo y estilos de caminar pueden seleccionarse desde el menú. Se guardan mediante KVP del cliente y pueden volver a aplicarse al salir de un vehículo o al volver a entrar al servidor.
 
-| COMMAND:    | ACTION:                               |
-| ----------- | ------------------------------------- |
-| F4          | Opens RPEmotes menu                   |
-| /walks      | See A List Of Walkstyles In Chat      |
-| /moods      | See A List Of Walkstyles In Chat      |
-| /reset mood | Remove preferred mood and set default |
-| /reset walk | Remove last walkstyle and set default |
+| COMANDO | ACCIÓN |
+| --- | --- |
+| F4 | Abre el menú de RPEmotes |
+| /walks | Muestra una lista de estilos de caminar en el chat |
+| /moods | Muestra una lista de estados de ánimo en el chat |
+| /reset mood | Elimina el estado de ánimo guardado y restaura el predeterminado |
+| /reset walk | Elimina el último estilo de caminar y restaura el predeterminado |
 
-Having problems with users "abusing" certain walk styles? rpemotes-reborn checks if a user has an "abusable" walk style saved and clears it when a player joins. Alternatively, you can use a resource like [rpemotes-punishment](https://github.com/alberttheprince/rpemotes-punishment/) to trip players abusing these emotes.
+Si algunos usuarios abusan de determinados estilos de caminar, rpemotes-reborn puede detectar ciertos estilos considerados problemáticos y limpiarlos al entrar. Como alternativa, puedes utilizar un recurso como [rpemotes-punishment](https://github.com/alberttheprince/rpemotes-punishment/).
 
-Just want to remove them? Delete the following walk styles from Animationlist.lua:
+Si simplemente quieres eliminarlos, puedes retirar de `AnimationList.lua` estilos como:
 
-Bigfoot, Hurry, Hurry2, Hurry3, Flee, Flee2, Flee3, Flee4, and Flee5
+Bigfoot, Hurry, Hurry2, Hurry3, Flee, Flee2, Flee3, Flee4 y Flee5.
 
-# No Idle Animations or Idle Cam  📷
+# Animaciones inactivas y cámara inactiva 📷
 
-By default, we ship empty idle animation overrides in rpemotes-reborn that stop default male and female peds from playing GTA's random
-idle "fidget" animations like scratching, nose-picking, and weight-shifting while standing still.
+Por defecto, rpemotes-reborn incluye anulaciones de determinadas animaciones inactivas para evitar algunos movimientos aleatorios de los peds de GTA mientras permanecen quietos.
 
-To re-enable them, delete the following folder: `stream/[Custom Emotes]/noidleanimations/` 
+Para restaurarlas, elimina la carpeta:
 
-No Idle Cam allows players to disable the idle camera animation on foot and in vehicle, making RP scenarios, streaming on Twitch, or just general gameplay just a little more enjoyable.
+`stream/[Custom Emotes]/noidleanimations/`
 
-| COMMAND:    | ACTION:                |
-| ----------- | ---------------------- |
-| /Idlecamon  | deactivates the native |
-| /idlecamoff | enables the native     |
+La opción de cámara inactiva permite controlar la cámara automática tanto a pie como dentro de vehículos.
 
-# Binoculars 👀
+| COMANDO | ACCIÓN |
+| --- | --- |
+| /Idlecamon | Desactiva el comportamiento nativo |
+| /idlecamoff | Activa el comportamiento nativo |
 
-| COMMAND:    | ACTION:                                       |
-| ----------- | --------------------------------------------- |
-| /binoculars | starts the binoculars                         |
-| L ALT       | Toggle between night, heat and normal visions |
-| G           | Show or hide the instructions                 |
-| BACKSPACE   | Exit the binoculars                           |
+# Binoculares 👀
 
+| COMANDO | ACCIÓN |
+| --- | --- |
+| /binoculars | Inicia los binoculares |
+| L ALT | Alterna entre visión nocturna, térmica y normal |
+| G | Muestra u oculta las instrucciones |
+| BACKSPACE | Cierra los binoculares |
 
-# News Camera
+# Cámara de noticias
 
-| COMMAND:  | ACTION:                       |
-| --------- | ----------------------------- |
-| /newscam  | starts the News Camera        |
-| H         | Edit Text                     |
-| L ALT     | Toggle between vision modes   |
-| G         | Show or hide the instructions |
-| BACKSPACE | Exit News Camera              |
+| COMANDO | ACCIÓN |
+| --- | --- |
+| /newscam | Inicia la cámara de noticias |
+| H | Edita el texto |
+| L ALT | Alterna entre los modos de visión |
+| G | Muestra u oculta las instrucciones |
+| BACKSPACE | Cierra la cámara |
 
+# Emotes de salida
 
-# Exit Emotes
+Los emotes de salida permiten cancelar una animación de forma más suave y dinámica; por ejemplo, levantarse de una silla o realizar una transición antes de finalizar una acción.
 
-Exit Emotes are used to make cancelling an animation more smoother and dynamic, such as getting up off a chair or throwing a cigarette out instead of dropping it.
+Puedes añadir tus propios emotes de salida en el nuevo arreglo `CustomDP.Exits = {}` de `AnimationListCustom.lua`.
 
-You can add your own Exit Emotes under `AnimationListCustom.lua`'s new `CustomDP.Exits = {}` array.
-
-Below is an example of how this would look:
+Ejemplo:
 
 ```lua
     },
@@ -309,7 +283,7 @@ Below is an example of how this would look:
     },
 ```
 
-The ExitEmote calls for the 'getup' emote, which is noted as the following:
+En este ejemplo, `ExitEmote` llama al emote `getup`:
 
 ```lua
 ["getup"] = {
@@ -323,193 +297,193 @@ The ExitEmote calls for the 'getup' emote, which is noted as the following:
 }
 ```
 
-# Adult Emotes 🔞
+# Emotes para adultos 🔞
 
-Adult Emotes can be hidden from the menu by setting `AdultEmotesDisabled` to `true` in the config.lua file.
+Los emotes marcados como contenido para adultos pueden ocultarse del menú configurando:
 
-This will completely conceal the emotes from the lists _(Emotes, Shared Emotes, etc)_ at startup making them unusable.
+`AdultEmotesDisabled = true`
 
-The emotes that are concealed, are the ones flagged in the animation list with `AdultAnimation`. You can see how it is done with `fspose`.
+en `config.lua`.
 
-Alternatively, you can also hide animal emotes.
+Esto impide que los emotes marcados como `AdultAnimation` aparezcan en las listas del menú durante el inicio del recurso.
+
+También puedes configurar el recurso para ocultar emotes de animales.
 
 # QB-Core ⚙️
 
-**QBCore integration to match their fork of dpemotes**
+**Integración con QBCore compatible con el enfoque utilizado por el fork de dpemotes.**
 
-- Config option that supports the QB Framework in their fork of the original dpemotes.
-
-If you’re using qb-core, you can now set
+Si utilizas qb-core, configura:
 
 ```lua
 Framework = "qb-core",
 ```
 
-in the config file, otherwise, leave it as
+Si no lo utilizas, deja:
 
 ```lua
 Framework = false,
 ```
 
-_You may need to alter some code within qb-core to work with RPEmotes._
+Dependiendo de la versión de tu framework, puede ser necesario adaptar alguna parte de la integración.
 
-# Prop Extractor ↔️
+# Extractor de props ↔️
 
-Many people have expressed concerns over anticheat scripts kicking or banning their community members due to the fact RPEmotes uses props and anticheats detecting said props being spawned.
+Algunos servidores utilizan anticheats que pueden detectar props generados por los emotes. Para facilitar la creación de listas permitidas, RPEmotes incluye un comando capaz de generar automáticamente un archivo llamado `prop_list.lua`.
 
-To make server owners' jobs a little easier, we have added a prop extractor command that you can enter into the server console which will automate a file inside the RPEmotes resource folder appropriately named, `prop_list.lua`.
-
-### Command:
+### Comando
 
 `emoteextract`
 
-```lua
-
-Available output formats:
+```text
+Formatos de salida disponibles:
 1 - 'prop_name',
 2 - "prop_name",
 3 - prop_name
-4 - calculate total emotes
+4 - calcular el total de emotes
 
-Command usage example: emoteextract 1
+Ejemplo de uso: emoteextract 1
 ```
 
 ![image](https://github.com/user-attachments/assets/6ec6e042-00b7-4be2-8086-1805eb87196c)
 
-# Installation Instructions ⚙️:
+# Instrucciones de instalación ⚙️
 
-- Add `ensure rpemotes` to your `server.cfg`
+- Añade `ensure rpemotes` a tu `server.cfg`.
+- Descarga los artifacts recomendados más recientes para [Windows](https://runtime.fivem.net/artifacts/fivem/build_server_windows/master/) o [Linux](https://runtime.fivem.net/artifacts/fivem/build_proot_linux/master/).
+- Utiliza un game build compatible y actualizado para que los emotes y props funcionen correctamente.
+- **OneSync Infinity es necesario para que determinados efectos de partículas funcionen correctamente entre jugadores.**
 
-- Download the latest recommended artifacts [for Windows](https://runtime.fivem.net/artifacts/fivem/build_server_windows/master/) or [for Linux](https://runtime.fivem.net/artifacts/fivem/build_proot_linux/master/)
+En servidores locales, la configuración puede incluir:
 
-- [Enforce gamebuild to latest build](https://forum.cfx.re/t/tutorial-forcing-gamebuild-to-casino-cayo-perico-or-tuners-update/4784977) for all emotes and props to work as intended.
-
-**Onesync Infinity is required for the particle effects to work as intended** This can be done via txadmin or your localhost .bat file.\*\*
-
-For localhost servers, comment out onesync from your server.cfg and add the following to your `.bat` file:
-
-```lua
-
+```text
 +set onesync on +set onesync_enableInfinity 1 +set onesync_enableBeyond 1 +set onesync_population true
-
 ```
 
-You can put this before your gamebuild enforcement, aka `+set sv_enforceGameBuild XXXX`
+Puedes colocar estas opciones antes de la configuración de `sv_enforceGameBuild`.
 
-- Set the desired language and settings in the config.lua under `MenuLanguage = 'en',`
+- Configura el idioma deseado en `config.lua`, por ejemplo: `MenuLanguage = 'es'`.
+- Si utilizas QB-Core, establece `Framework = 'qb-core'`. En caso contrario, déjalo en `false`.
+- Si no deseas utilizar las funciones KVP de asignación de teclas, puedes utilizar los comandos de bind de FiveM desde F8.
+- Después de realizar cambios, utiliza `/refresh` y `/ensure rpemotes`, o simplemente reinicia el servidor.
 
-- Qb-Core server owners, set `Framework = 'qb-core'` in the config file, otherwise leave it as false.
+# Emotes compartidos 👩🏻‍❤️‍💋‍👨🏼
 
-- If you do not want to use the Kvp features, you can use the keybind command that comes with FiveM, by entering the following into F8:
+Los emotes compartidos pueden utilizar `SyncOffset` o `Attachto`.
 
-`bind keyboard "Yourbutton" "e youremote"`. To remove the keybind, type `"unbind keyboard "Yourbutton"`.
+Si utilizan `SyncOffsetFront` o `SyncOffsetSide`, el desplazamiento aplicado corresponde normalmente al jugador que inició el emote.
 
-- Type `/refresh` and `/ensure rpemotes` into your chat resource, or simply restart your server
+Por ejemplo, si el jugador 1 inicia `handshake` y este utiliza `SyncOffsetFront`, el desplazamiento se aplica al jugador que inició la animación según la configuración del emote.
 
-# Shared emotes 👩🏻‍❤️‍💋‍👨🏼
+- Con `Attachto`, pueden utilizarse los datos de uno de los jugadores para adjuntar al otro.
+- Si el jugador 1 inicia una animación como `carry`, el otro jugador puede quedar adjuntado dependiendo de cuál de las dos animaciones contenga `Attachto`.
+- Si el jugador inicia directamente la contraparte, como `carry2`, puede invertirse qué jugador queda adjuntado.
 
-Emotes will work with either `SyncOffset` or `Attachto`.
+En la mayoría de los casos, el jugador que inicia la animación será quien determine la colocación inicial.
 
-If it is with `SyncOffsetFront` or `SyncOffsetSide`, then the offset used is the one of the emote the player started.<br/>
+**Caso especial:** si ambos emotes utilizan `Attachto`, normalmente solo se adjuntará el jugador que inició el emote según la lógica implementada.
 
-For example, if player one starts the emote `handshake` which has `SyncOffsetFront`, then player one will have the `SyncOffsetFront` but not the other player.
+Puedes consultar una lista de huesos de ped en [Ped Bones](https://wiki.rage.mp/index.php?title=Bones).
 
-- If it is with `Attachto`, then it'll either be player one's data used for attaching or player two's data.<br/>
-  For example, if player one starts the emote carry, then the other player will be attached but not the player one because Attachto is set in `carry2` and not `carry`.<br/>
-- If player one starts the emote `carry2`, then player one will be attached and not the other player.
-  it's the player who starts the animation who will in most cases be moved
+Debes utilizar el ID del hueso correspondiente, por ejemplo `1356`, y no confundirlo con otros índices internos.
 
-_Special case, if both emote have the `Attachto` then only the player who started the emote will be attached._
+Si esta configuración te resulta confusa, normalmente es más sencillo trabajar con el enfoque basado en `Attachto`.
 
-You can find a list of ped bones to attach the other player here: [Ped Bones](https://wiki.rage.mp/index.php?title=Bones) or alternatively, if the link is down for some reason, you can check [here](https://wiki.rage.mp/index.php?title=Bones)
+# Efectos de partículas 💨
 
-Using the websites provided above, enter the bone ID, ie `1356` and not `111`, which is the Bone Index.
+**REQUIERE ONESYNC INFINITY**
 
-Understandably, this can be confusing for some people. We suggest using the `Attachto` approach.
+Puedes localizar efectos de partículas utilizando el [DurtyFree GTA V Dump](https://github.com/DurtyFree/gta-v-data-dumps/blob/master/particleEffectsCompact.json).
 
-# Particle Effects 💨
+Debes definir el asset de partículas, su nombre y su colocación. La colocación utiliza XYZ, Pitch, Roll, Yaw y escala.
 
-**REQUIRES ONESYNC INFINITY**
-
-Particle effects can be found using the [DurtyFree GTA V Dump](https://github.com/DurtyFree/gta-v-data-dumps/blob/master/particleEffectsCompact.json). You will need to add the particle asset, name, and placement. Placement is done via XYZ, Pitch, Roll, Yaw, and scale.
-
-Onesync is required for them to work across all clients.
+OneSync es necesario para sincronizar correctamente estos efectos entre los clientes.
 
 ```lua
 PtfxPlacement = {
     -0.15, -- X
     -0.35, -- Y
      0.0, -- Z
-     0.0, -- ROTATION X
-     90.0, -- ROTATION Y
-     180.0, -- ROTATION Z
-       1.0 -- SCALE
+     0.0, -- ROTACIÓN X
+     90.0, -- ROTACIÓN Y
+     180.0, -- ROTACIÓN Z
+       1.0 -- ESCALA
 },
 ```
 
 <img src="screenshots/pfxcoords.png" width="350">
 
-By default, the main prop will share its coordinates with the particle effect, so just put 0.0 for the particle effects and you will be good to go.
+Por defecto, el prop principal puede compartir sus coordenadas con el efecto de partículas. En ese caso puedes comenzar utilizando valores `0.0` y ajustarlos según sea necesario.
 
-If no prop is used in the animation or you require the particle effect to be in a different location, use `PtfxNoProp = true`, and 0.0 will 9/10 times be the human peds' stomach; you can then offset your coordinates based on that with the first 3 entries being XYZ, and the last 3 being rotation XYZ.
+Si la animación no utiliza prop o necesitas colocar el efecto en otra posición, utiliza `PtfxNoProp = true`. Como referencia, los primeros tres valores corresponden a XYZ y los tres siguientes a la rotación XYZ.
 
-Alternatively, you can use the `PtfxBone =` AnimationOption to attach the PTFX to the ped's bone, similarly to how you attach props.
+También puedes utilizar la opción `PtfxBone` de `AnimationOptions` para adjuntar el efecto PTFX a un hueso del ped, de forma similar a como se adjuntan los props.
 
-Using Menyoo, spawn down a tennis ball and attach it to a human, by default menyoo will attach it to the SKEL_ROOT bone (stomach), so from that, what we can do is either offset the coordinates, say, up to the human ped's mouth, or change the bone altogether. Once we've got it correct, we can transfer those coordinates over to RPEmotes, and tah dah, we have our Ptfx Placement.
+Con Menyoo puedes generar un objeto sencillo, adjuntarlo al ped y utilizarlo como referencia para ajustar las coordenadas hasta encontrar la colocación deseada. Después puedes trasladar esos valores a RPEmotes.
 
-Note that `ptfxwait = ` is in ms, so if you'd like a particle to last for 30 seconds, it should be `ptfxwait = 30000`.
+Ten en cuenta que `ptfxwait` se expresa en milisegundos. Por ejemplo, para una duración de 30 segundos:
 
-# Adding Your Own Animations ⚙️
+`ptfxwait = 30000`
 
-Because the menu gets updated frequently, the files get overwritten. To avoid this, you can add your own / downloaded animation files `(.ycd)` inside of a newly created folder, give it a name, and place it in the `rpemotes\stream\[Custom Emotes]` folder.
+# Añadir tus propias animaciones ⚙️
 
-Add your animation code to the `AnimationListCustom.lua` and make a backup of this file and call it `BackUpAnimationListCustom.lua`.
+Como el menú puede actualizarse con frecuencia, algunos archivos pueden sobrescribirse. Para evitar perder personalizaciones, coloca tus animaciones propias o descargadas `(.ycd)` en una carpeta creada específicamente dentro de:
 
-**Note on vehicle emotes:** If you want your emote to play in a vehicle with the full body, you must add the FullBody tag to the emote options.
+`rpemotes\stream\[Custom Emotes]`
 
-**Note on animal emotes:** For the addition of custom emotes for animal peds, you must add use the `sdog` or `bdog` tags. For example if you want to add an emote of `laydownflat` it must be either `sdoglaydownflat` or `bdoglaydownflat`. You must also add any custom addon peds to the `animals.lua` file in either category for these animations to be played on those models.
+Añade el código de tus animaciones en `AnimationListCustom.lua` y conserva una copia de seguridad, por ejemplo:
 
-Whenever an update is released, rename `BackUpAnimationListCustom.lua` to `AnimationListCustom.lua`, click yes to overwrite, and you're good to go.
+`BackUpAnimationListCustom.lua`
 
-Note that `AnimationListCustom.lua` and `BackUpAnimationListCustom.lua` files from versions prior to version 1.5.0 are not compatible with version 1.5.0, and files from version 1.5.0 are not backwards compatible with versions prior to version 1.5.0. To retain any custom animation code from previous versions, copy over any customizations into the `AnimationListCustom.lua` file that is included in the current version.
+**Nota sobre emotes en vehículos:** si quieres reproducir un emote de cuerpo completo dentro de un vehículo, añade la opción correspondiente de cuerpo completo en la configuración del emote.
 
-It is also a good idea to keep a backup of your config file.
-Below is an example:
+**Nota sobre emotes de animales:** para añadir animaciones personalizadas destinadas a peds animales, utiliza las etiquetas correspondientes, como `sdog` o `bdog`, de acuerdo con la implementación del recurso. También debes registrar los peds addon correspondientes en el archivo de animales para permitir que esas animaciones se reproduzcan en esos modelos.
+
+Después de una actualización, puedes volver a copiar tus cambios desde la copia de seguridad a la versión nueva de `AnimationListCustom.lua`.
+
+Los archivos `AnimationListCustom.lua` de versiones muy antiguas pueden no ser compatibles directamente con versiones más recientes. Lo más seguro es copiar únicamente tus personalizaciones al archivo incluido en la versión actual.
+
+También se recomienda conservar una copia de seguridad de `config.lua`.
+
+Ejemplo:
 
 <img src="screenshots/customanims.png" width="550">
 
-# Credits 🤝
+# Créditos 🤝
 
-**All** custom animations and props were added with permission from the creators.
+**Todas** las animaciones y props personalizados incluidos originalmente por el proyecto fueron añadidos con permiso de sus respectivos creadores.
 
-All animation creators have **_specifically_** asked that their content remain free and that the RPEmotes team and community do not try to profit from them, claim them as their own, or reupload them anywhere else.
+Los creadores de animaciones indicaron **expresamente** que su contenido debía permanecer gratuito y que el equipo y la comunidad de RPEmotes no debían intentar obtener beneficios con él, reclamarlo como propio ni volver a subirlo a otros lugares.
 
-**A huge thank you the following people for their amazing contributions to the menu:**
+**Un enorme agradecimiento a las siguientes personas y comunidades por sus contribuciones al menú:**
 
-- the FiveM community for using RP and updating rpemotes-reborn!
-### Developers:
-- [The Popcorn RP community](https://discord.gg/popcornroleplay) for putting up with all my emote menu testing and troubleshooting issues with me
-- [Mathu_lmn](https://github.com/Mathu-lmn) for maintaining the menu and adding features
-- [Manason](https://github.com/Manason) for major overhauls, refactors, and improvements of rpemotes-reborn during push to 2.0
-- [CritteRo](CritteRo) for work on shared emotes placement and other refactors and fixes of rpemotes-reborn during push to 2.0
-- [ChristopherM](https://github.com/cm8263) for creation of the emote placement feature and fixes of rpemotes-reborn during push to 2.0
-- [enzo2991](https://github.com/enzo2991) for creating the ped preview functionality, keybind with kvp
-- [DerDevHD](https://forum.cfx.re/t/fixed-remove-prop-after-scenario-animation/5002332/8) for the insight on deleting scenario props.
-- [iSentrie](https://forum.cfx.re/u/isentrie/) for additional code, support, and joining the RPEmotes project
-- [Kibook](https://github.com/kibook) for the addition of the Animal Emotes sub-menu
-- [AvaN0x](https://github.com/AvaN0x) for reformatting and assisting with code, additional features, and figuring out shared particle effects
-- [Mads](https://github.com/MadsLeander) for joining the team as Co-Developer
-- [Tigerle](https://forum.cfx.re/u/tigerle_studios) for providing the additional code required to make Shared Emotes work to its full extent
-- [GeekGarage](https://github.com/geekgarage) for their knowledge, time, and dedication, helping to bring new and exciting features to the menu
-- [northsqrd](https://github.com/0sqrd) for adding the search function, Animal Emotes config, mobile phone prop texture variants, and general contributions
-- [Chico](https://forum.cfx.re/u/chico) for implementing natives to reapply persistent moods and walk styles for ESX and QB-Core frameworks
-- [Scully](https://github.com/Scullyy/) for their past work on rpemotes
-- [DevNeganSmithStore](https://dev-negan-smith-store.tebex.store). for helper tester
-- Crusopaul and Eki for discussing KVP and initializing it to the menu for persistent walk styles
+- La comunidad de FiveM por utilizar RP y contribuir a la evolución de rpemotes-reborn.
 
-### Emote & Props Creators:
-- [FalseHopeDesigns](https://falsehopedesigns.tebex.io/) for creation of collisionless props
-- [SMGMissy](https://jenscreations.tebex.io/) for creating the pride flag props
+### Desarrolladores
+
+- [The Popcorn RP community](https://discord.gg/popcornroleplay), por colaborar en las pruebas y resolución de problemas.
+- [Mathu_lmn](https://github.com/Mathu-lmn), por mantener el menú y añadir funciones.
+- [Manason](https://github.com/Manason), por importantes reestructuraciones, refactorizaciones y mejoras durante la transición a la versión 2.0.
+- [CritteRo](CritteRo), por su trabajo en la colocación de emotes compartidos y otras mejoras.
+- [ChristopherM](https://github.com/cm8263), por crear la función de colocación de emotes y realizar correcciones.
+- [enzo2991](https://github.com/enzo2991), por crear la vista previa de peds y funciones de teclas con KVP.
+- [DerDevHD](https://forum.cfx.re/t/fixed-remove-prop-after-scenario-animation/5002332/8), por sus aportes relacionados con la eliminación de props de escenarios.
+- [iSentrie](https://forum.cfx.re/u/isentrie/), por código adicional, soporte y colaboración con el proyecto.
+- [Kibook](https://github.com/kibook), por añadir el submenú de emotes de animales.
+- [AvaN0x](https://github.com/AvaN0x), por reformatear código, añadir funciones y ayudar con los efectos de partículas compartidos.
+- [Mads](https://github.com/MadsLeander), por unirse al equipo como codesarrollador.
+- [Tigerle](https://forum.cfx.re/u/tigerle_studios), por aportar código adicional para los emotes compartidos.
+- [GeekGarage](https://github.com/geekgarage), por su conocimiento, tiempo y dedicación en nuevas funciones.
+- [northsqrd](https://github.com/0sqrd), por añadir la búsqueda, configuración de emotes animales, variantes de texturas y otras contribuciones.
+- [Chico](https://forum.cfx.re/u/chico), por implementar natives para reaplicar estados de ánimo y estilos de caminar persistentes en ESX y QB-Core.
+- [Scully](https://github.com/Scullyy/), por su trabajo anterior en RPEmotes.
+- [DevNeganSmithStore](https://dev-negan-smith-store.tebex.store), por apoyo en pruebas.
+- Crusopaul y Eki, por sus aportes relacionados con KVP y estilos de caminar persistentes.
+
+### Creadores de emotes y props
+
+- [FalseHopeDesigns](https://falsehopedesigns.tebex.io/), por la creación de props sin colisión.
+- [SMGMissy](https://jenscreations.tebex.io/), por la creación de props de banderas Pride.
 - [MissSnowie](https://www.gta5-mods.com/users/MissySnowie)
 - [Smokey](https://www.gta5-mods.com/users/struggleville)
 - [BzZzi](https://forum.cfx.re/u/bzzzi/summary)
@@ -520,7 +494,7 @@ All animation creators have **_specifically_** asked that their content remain f
 - [Pupppy](https://discord.gg/rsN35X4s4N)
 - [SapphireMods](https://discord.gg/Hf8F4nTyzt)
 - [QueenSisters Animations](https://discord.gg/qbPtGwQuep)
-- DurtyFree for his work on particle effects and cataloging GTA-related information [DurtyFree GTA V Dump](https://github.com/DurtyFree/gta-v-data-dumps/blob/master/particleEffectsCompact.json)
+- DurtyFree, por su trabajo con efectos de partículas y catalogación de información de GTA: [DurtyFree GTA V Dump](https://github.com/DurtyFree/gta-v-data-dumps/blob/master/particleEffectsCompact.json)
 - [BoringNeptune](https://www.gta5-mods.com/users/BoringNeptune)
 - [CMG Mods](https://www.gta5-mods.com/users/-moses-)
 - [prue 颜](discord.gg/lunyxmods)
@@ -530,10 +504,10 @@ All animation creators have **_specifically_** asked that their content remain f
 - Chocoholic Animations
 - [CrunchyCat](https://www.gta5-mods.com/users/crunchycat)
 - [KayKayMods](https://discord.gg/5bYQVWVaxG)
-- [MonkeyWhisper](https://github.com/MonkeyWhisper) and [Project Sloth](https://github.com/Project-Sloth)
+- [MonkeyWhisper](https://github.com/MonkeyWhisper) y [Project Sloth](https://github.com/Project-Sloth)
 - [Brummieee](https://forum.cfx.re/u/brummieee_maps/summary)
-- [Dark Animations](https://www.gta5-mods.com/users/Darks%20Animations).
-- [-EcLiPsE-](https://www.gta5-mods.com/users/-EcLiPsE-) for allowing me to implement [Improved Prop Sets](https://www.gta5-mods.com/misc/improved-propsets-meta) and [GTA Online Biker Idle Anims](https://www.gta5-mods.com/misc/bike-idle-animations)
+- [Dark Animations](https://www.gta5-mods.com/users/Darks%20Animations)
+- [-EcLiPsE-](https://www.gta5-mods.com/users/-EcLiPsE-), por permitir la implementación de [Improved Prop Sets](https://www.gta5-mods.com/misc/improved-propsets-meta) y [GTA Online Biker Idle Anims](https://www.gta5-mods.com/misc/bike-idle-animations)
 - [MrWitt](https://www.gta5-mods.com/users/MrWitt)
 - [Vedere](https://discord.gg/XMywAMQ8Ef)
 - [DRX Animations](https://www.gta5-mods.com/users/DRX%2DAnimations)
@@ -547,4 +521,3 @@ All animation creators have **_specifically_** asked that their content remain f
 - [corbs](https://www.gta5-mods.com/users/corbs)
 - [jaysigx](https://www.gta5-mods.com/misc/improved-umbrella)
 - [Payzee](https://pazeee.tebex.io/)
-  
