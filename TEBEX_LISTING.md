@@ -2,7 +2,7 @@
 
 > Esta ficha corresponde únicamente a la rama `tebex-free`. No publiques como descarga la rama `main`.
 
-## Nombre
+## NeganEmotes — Free Edition
 
 **NeganEmotes — Free Edition**
 
