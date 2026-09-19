@@ -45,6 +45,7 @@ client_scripts {
     'client/Utils.lua',
     'client/Bridge.lua',
     'client/AnimationList.lua',
+    'client/StreamEmoteAddons.lua',
     'client/AnimationListCustom.lua',
     'client/Binoculars.lua',
     'client/Crouch.lua',

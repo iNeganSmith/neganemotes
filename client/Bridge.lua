@@ -25,6 +25,25 @@ local function InitializeFramework()
             PlayerData = ESX.GetPlayerData()
             PlayerLoaded = true
         end)
+    elseif GetResourceState('qbx_core') == 'started' then
+        Framework = 'qbx'
+
+        AddEventHandler('QBCore:Client:OnPlayerLoaded', function()
+            PlayerData = exports.qbx_core:GetPlayerData()
+        end)
+
+        RegisterNetEvent('QBCore:Client:OnPlayerUnload', function()
+            PlayerData = {}
+        end)
+
+        RegisterNetEvent('QBCore:Player:SetPlayerData', function(val)
+            PlayerData = val
+        end)
+
+        AddEventHandler('onResourceStart', function(resourceName)
+            if GetCurrentResourceName() ~= resourceName then return end
+            PlayerData = exports.qbx_core:GetPlayerData()
+        end)
     elseif GetResourceState('qb-core') == 'started' then
         QBCore = exports['qb-core']:GetCoreObject()
         Framework = 'qb'
@@ -54,7 +73,7 @@ end
 function CanDoAction()
     if Framework == 'esx' then
         return PlayerLoaded and not PlayerData.dead
-    elseif Framework == 'qb' then
+    elseif Framework == 'qb' or Framework == 'qbx' then
         return LocalPlayer.state.isLoggedIn and not (PlayerData.metadata.inlaststand or PlayerData.metadata.isdead or PlayerData.metadata.ishandcuffed)    end
     -- here you can implement your own standalone framework check
     return true
@@ -109,7 +128,7 @@ local function DelayedHandleWalkstyle()
     SetTimeout(1500, HandleWalkstyle)
 end
 
-if Framework == 'qb' then
+if Framework == 'qb' or Framework == 'qbx' then
     RegisterNetEvent('hospital:client:Revive', DelayedHandleWalkstyle)
     RegisterNetEvent('qbx_medical:client:playerRevived', DelayedHandleWalkstyle)
 end

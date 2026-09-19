@@ -480,8 +480,10 @@ function ShowPedMenu(zoom)
                 SetEntityHeading(ClonedPed, camRot.z + heading_offset)
                 SetEntityRotation(ClonedPed, camRot.x * (-1), 0.0, camRot.z + 170.0, 2, false)
                 ForcePedMotionState(ClonedPed, `MotionState_None`, false, 1, true)
+                -- Esta nativa solo aplica durante el frame actual; repetirla evita el parpadeo del clon.
+                SetEntityLocallyVisible(ClonedPed)
 
-                Wait(4)
+                Wait(0)
             end
 
             DeleteEntity(ClonedPed)

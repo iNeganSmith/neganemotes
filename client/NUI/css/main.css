@@ -16,18 +16,18 @@
     --color-text-secondary: rgba(138, 138, 138, 1);
 
     --color-border: rgba(138, 138, 138, 1);
-    --color-border-accent-primary: rgba(21, 137, 216, 1);
+    --color-border-accent-primary: rgba(232, 62, 140, 1);
 
     --color-btn-bg: rgba(62, 62, 62, 1);
     --color-btn-popover-bg: rgba(62, 62, 62, 1);
     --color-btn-border: #1d1d1d;
     --color-btn-hover: #4f4f4f;
 
-    --color-scrollbar: #1589d8;
-    --color-scrollbar-hover: #3badf8;
+    --color-scrollbar: #e83e8c;
+    --color-scrollbar-hover: #f06aa8;
 
-    --color-accent-primary: #1589d8;
-    --color-accent-primary-hover: #3badf8;
+    --color-accent-primary: #e83e8c;
+    --color-accent-primary-hover: #f06aa8;
     --color-accent-secondary: rgba(62, 62, 62, 1);
     --color-accent-secondary-hover: #d84c15;
     --color-accent-favorite: #ffd700;
@@ -158,6 +158,8 @@ hr {
 .header-image {
     width: 100%;
     height: auto;
+    /* Convierte el encabezado azul a rosado sin alterar su logotipo. */
+    filter: hue-rotate(125deg) saturate(1.15);
 }
 
 .search-container {

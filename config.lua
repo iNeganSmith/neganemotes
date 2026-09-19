@@ -1,5 +1,5 @@
 Config = {
-    MenuLanguage = 'en', -- Change the language of the menu here
+    MenuLanguage = 'es', -- Interfaz y notificaciones en español
 
     EnableCancelKeybind = true,
     CancelEmoteKey = 'X',
